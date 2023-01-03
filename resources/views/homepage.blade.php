@@ -24,7 +24,7 @@
                     <i class="uil uil-times navCloseBtn"></i>
                     <li class="link"><a href="#">Home</a></li>
                     <li><a href="#">New</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li><a href="{{url('/loginform')}}">Login</a></li>
                     <li><a href="#">Notification</a></li>
                     <li><a href="#">Help</a></li>
                 </ul>

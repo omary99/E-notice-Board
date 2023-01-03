@@ -1,3 +1,8 @@
+body{
+ width: 80vw;
+ height: 100vh;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -51,8 +56,10 @@ table {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-bottom: 12px;
+    margin-top: 130px;
+    margin-bottom: 20px;
     cursor: pointer;
     background-color: #2061da; 
     margin-left: 500px;
+    border-radius: 20px;
   }

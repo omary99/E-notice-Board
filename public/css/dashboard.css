@@ -7,6 +7,10 @@
            box-sizing: border-box;
            font-family: "Poppins", "sans-sarif";
        }
+       /* body{
+        overflow-x: hidden;
+        height: 100%;
+       } */
 
        .sidebar {
            position: fixed;
@@ -256,10 +260,15 @@
        .home-section{
            position: relative;
            background: #D0D3D3;
-           height: 130vh;
+           height: 100%;
            left: 260px;
            width: calc(100% -260px);
            transition: all 0.5s ease;
+           
+       }
+
+       .home-section .container{
+        height: 100vh;
        }
 
        .sidebar.close ~ .home-section{

@@ -8,6 +8,7 @@ use App\Http\Controllers\TrainingController;
 use App\Http\Controllers\IctController;
 use App\Http\Controllers\OtherAnnouncementsController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\UserController;
 
 
 /*
@@ -29,6 +30,20 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
+
+// Signup form
+Route::get('/signup', function () {
+    return view('signup');
+});
+
+// Login form
+Route::get('/loginform', function () {
+    return view('loginform');
+});
+
+// Users
+Route::post('/UserData', [UserController::class, 'store']);
+
 
 //Dashboard
 Route::get('/DashboardDataPage', [DashboardController::class, 'index']);

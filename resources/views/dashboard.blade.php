@@ -14,6 +14,7 @@
     <title>EPZA | e-noticeBoard </title>
 
 <body>
+
     <div class="sidebar">
           <!-- logo details -->
         <div class="logo-details">

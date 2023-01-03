@@ -6,11 +6,9 @@
   body {
     background-color: #f5f6f7;
     background-size: cover;
-    width: calc(100% -260px);
-
-    /* width: 100vw; */
+    width: 80vw; 
     height: 100vh;
-    display: grid;
+    display: relative;
     align-items: center;
     justify-items: center;
     font-size: 12pt;
