@@ -24,7 +24,7 @@ use App\Http\Controllers\UserController;
 
 
 Route::get('/', function () {
-    return view('homepage');
+    return view('layouts/app');
 });
 
 Route::get('/home_dashboard', function () {

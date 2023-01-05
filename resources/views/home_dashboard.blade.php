@@ -26,7 +26,7 @@
         <ul class="nav-links">
               <!-- Dashboard details -->
             <li>
-                <a href="{{url('/DashboardDataPage')}}">
+                <a href="{{url('/dashboard')}}">
                     <i class='bx bx-grid-alt'></i>
                     <span class="link-name">Dashboard</span>
                 </a>

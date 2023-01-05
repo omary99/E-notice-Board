@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>EPZA | Homepage</title>
 
     <!-- Unicons CSS -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -24,9 +24,10 @@
                     <i class="uil uil-times navCloseBtn"></i>
                     <li class="link"><a href="#">Home</a></li>
                     <li><a href="#">New</a></li>
-                    <li><a href="{{url('/login')}}">Login</a></li>
                     <li><a href="#">Notification</a></li>
-                    <li><a href="#">Help</a></li>
+                    <li><a href="{{url('/login')}}">Login</a></li>
+                    <li><a href="{{url('/register')}}">Register</a></li>
+                   
                 </ul>
 
                 <i class="uil uil-search search-icon" id="searchIcon"></i>

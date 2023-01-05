@@ -15,7 +15,7 @@
     </style>
 </head>
 
-@extends('dashboard')
+@extends('home_dashboard')
 
 @section('content')
 <body>
