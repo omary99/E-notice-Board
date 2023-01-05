@@ -23,6 +23,7 @@ class HolidayController extends Controller
         $data->holiday_start_date = $request->holidayStartDate;
         $data->holiday_expiration_date = $request->holidayExpirationDate;
         $data->assistant_name = $request->assistantName;
+        $data->user_id = auth()->user()->id;
 
         $data->save();
         return redirect()->back();

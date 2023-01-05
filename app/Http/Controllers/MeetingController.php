@@ -22,6 +22,7 @@ class MeetingController extends Controller
             $data->goal = $request->goal;
             $data->characters = $request->characters;
             $data->area = $request->area;
+            $data->user_id = auth()->user()->id;
     
             $data->save();
             return redirect()->back();

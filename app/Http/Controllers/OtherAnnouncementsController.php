@@ -20,6 +20,7 @@ class OtherAnnouncementsController extends Controller
         $data->announcement_date = $request->announcementDate;
         $data->where_from = $request->whereFrom;
         $data->related = $request->related;
+        $data->user_id = auth()->user()->id;
 
         $data->save();
         return redirect()->back();

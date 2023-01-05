@@ -23,6 +23,7 @@ class TrainingController extends Controller
         $data->training_type = $request->trainingType;
         $data->place = $request->place;
         $data->assistant_name = $request->assistantName;
+        $data->user_id = auth()->user()->id;
 
         $data->save();
         return redirect()->back();

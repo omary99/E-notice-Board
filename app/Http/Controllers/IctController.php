@@ -20,6 +20,7 @@ class IctController extends Controller
         $data->ict_time = $request->ictTime;
         $data->about = $request->about;
         $data->description = $request->description;
+        $data->user_id = auth()->user()->id;
 
         $data->save();
         return redirect()->back();

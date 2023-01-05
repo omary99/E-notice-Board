@@ -23,7 +23,8 @@ class TravelController extends Controller
         $data->place = $request->place;
         $data->servant_name = $request->servantName;
         $data->assistant_name = $request->assistantName;
-
+        $data->user_id = auth()->user()->id;
+ 
         $data->save();
         return redirect()->back();
     }
