@@ -24,7 +24,7 @@
                     <i class="uil uil-times navCloseBtn"></i>
                     <li class="link"><a href="#">Home</a></li>
                     <li><a href="#">New</a></li>
-                    <li><a href="{{url('/loginform')}}">Login</a></li>
+                    <li><a href="{{url('/login')}}">Login</a></li>
                     <li><a href="#">Notification</a></li>
                     <li><a href="#">Help</a></li>
                 </ul>
@@ -40,7 +40,7 @@
         <div class="banner-text">
             <h2>Export Processing <span>Zones Authority</span></h2>
             <p>Welcome to the announcements electronic board websites.</p>
-            <button class="btn"><a class="link_underline"  href="{{url('/dashboard')}}">Read More</a></button>
+            <button class="btn"><a class="link_underline"  href="{{url('/home_dashboard')}}">Read More</a></button>
         </div>
     </header>
     <div class="container">

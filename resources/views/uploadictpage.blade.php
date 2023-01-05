@@ -16,7 +16,7 @@
     <title>Upload Information and Communication Technology Advertising Page</title>
   </head>
 
-@extends('dashboard')
+@extends('home_dashboard')
 
 @section('content')
 

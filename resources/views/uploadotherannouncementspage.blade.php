@@ -16,7 +16,7 @@
     <title>Upload Other announcements Page</title>
   </head>
 
-  @extends('dashboard')
+  @extends('home_dashboard')
 
   @section('content')
   <body>

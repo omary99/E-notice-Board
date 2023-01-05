@@ -27,8 +27,8 @@ Route::get('/', function () {
     return view('homepage');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
+Route::get('/home_dashboard', function () {
+    return view('home_dashboard');
 });
 
 // Signup form
@@ -77,3 +77,12 @@ Route::get('/IctDataPage', [IctController::class, 'show']);
 Route::get('/OtherAnnouncementsPage', [OtherAnnouncementsController::class, 'index']);
 Route::post('/OtherAnnouncementsData', [OtherAnnouncementsController::class, 'store']);
 Route::get('/OtherAnnouncementsDataPage', [OtherAnnouncementsController::class, 'show']);
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});

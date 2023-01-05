@@ -17,7 +17,7 @@
     <title>Upload Holiday Page</title>
   </head>
 
-  @extends('dashboard')
+  @extends('home_dashboard')
 
   @section('content')
   <body>

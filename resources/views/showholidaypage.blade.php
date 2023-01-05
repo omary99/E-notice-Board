@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   </head>
 
-  @extends('dashboard')
+  @extends('home_dashboard')
 
   @section('content')
 <body>
@@ -64,7 +64,7 @@
     
   </div>
 
-  <button class="button button2"><a class="link_underline" style="color:black" href="{{url('/dashboard')}}">RUDI MWANZO</a></button>
+  <button class="button button2"><a class="link_underline" style="color:black" href="{{url('/home_dashboard')}}">RUDI MWANZO</a></button>
   </body>
 @endsection
   </html>
