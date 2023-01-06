@@ -6,20 +6,23 @@
   body {
     background-color: #f5f6f7;
     background-size: cover;
-    width: 80vw; 
-    height: 100vh;
+    width: 100%; 
+    height: 100%;
     display: relative;
     align-items: center;
     justify-items: center;
     font-size: 12pt;
     font-family: "Georgia";
     color: #2A293E;
+    overflow-x: hidden;
   }
   
   .contact-us {
     background: #f8f4e5;
     padding: 50px 100px;
     border-top: 10px solid #2b2677;
+    width: 85%;
+    margin-bottom: 20px;
   }
   
   label, input, textarea {

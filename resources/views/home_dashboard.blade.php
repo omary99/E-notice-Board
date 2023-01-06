@@ -24,6 +24,7 @@
         
 <!-- nav link -->
         <ul class="nav-links">
+
               <!-- Dashboard details -->
             <li>
                 <a href="{{url('/dashboard')}}">
@@ -38,7 +39,7 @@
             <!-- Taarifa ya safari -->
             <li>
                 <a href="{{url('/TravelDataPage')}}">
-                    <i class='bx bx-pie-chart-alt-2'></i>
+                 <i class='bx bx-briefcase'></i>
                     <span class="link-name">Taarifa ya safari</span>
                 </a>
                 <ul class="sub-menu blank">
@@ -48,7 +49,7 @@
               <!--Taarifa ya Vikao -->
               <li>
                 <a href="{{url('/MeetingDataPage')}}">
-                    <i class='bx bx-line-chart'></i>
+                    <i class='bx bx-news'></i>
                     <span class="link-name">Taarifa ya Vikao</span>
                 </a>
                 <ul class="sub-menu blank">
@@ -59,7 +60,7 @@
              <!-- Taarifa ya Likizo -->
              <li>
                 <a href="{{url('/HolidayDataPage')}}">
-                    <i class='bx bx-plug'></i>
+                <i class='bx bx-fork' ></i>
                     <span class="link-name">Taarifa ya Likizo</span>
                 </a>
                 <ul class="sub-menu blank">
@@ -70,7 +71,7 @@
              <!-- Taarifa ya Mafunzo-->
              <li>
                 <a href="{{url('/TrainingDataPage')}}">
-                    <i class='bx bx-book-alt'></i>
+                  <i class='bx bx-book-open'></i>
                     <span class="link-name">Taarifa ya Mafunzo</span>
                 </a>
                 <ul class="sub-menu blank">
@@ -81,7 +82,7 @@
              <!-- Taarifa ya ICT-->
              <li>
                 <a href="{{url('/IctDataPage')}}">
-                    <i class='bx bx-compass'></i>
+                 <i class='bx bx-envelope' ></i>
                     <span class="link-name">Taarifa ya ICT</span>
                 </a>
                 <ul class="sub-menu blank">
@@ -92,33 +93,13 @@
              <!--Matangazo Mengineyo-->
              <li>
                 <a href="{{url('/OtherAnnouncementsDataPage')}}">
-                    <i class='bx bx-history'></i>
+                   <i class='bx bx-collection'></i>
                     <span class="link-name">Matangazo Mengineyo</span>
                 </a>
                 <ul class="sub-menu blank">
                     <li><a class="link-name" href="#">Matangazo Mengineyo</a></li>
                 </ul>
             </li>
-            <!-- category Details dropping down -->
-            <li>
-                <div class="icon-link">
-                    <a href="#">
-                        <i class='bx bx-collection'></i>
-                        <span class="link-name">Admin</span>
-                    </a>
-                    <i class='bx bxs-chevron-down arrow' ></i>
-                </div>
-                <ul class="sub-menu">
-                    <li><a class="link-name" href="#">Admin</a></li>
-                    <li><a class="link" href="{{url('/TravelPage')}}">Travel</a></li>
-                    <li><a class="link" href="{{url('/MeetingPage')}}">Meeting</a></li>
-                    <li><a class="link" href="{{url('/HolidayPage')}}">Holiday</a></li>
-                    <li><a class="link" href="{{url('/TrainingPage')}}">Training</a></li>
-                    <li><a class="link" href="{{url('/IctPage')}}">Ict</a></li>
-                    <li><a class="link" href="{{url('/OtherAnnouncementsPage')}}">OtherAnnouncements</a></li>
-                </ul>
-            </li>
-
 
              <!-- setting Details -->
             <li>
@@ -152,11 +133,13 @@
         <div class="home-content">
              <i class='bx bx-menu'></i>
         </div>
+        <div class="dashboard-information">
+        </div>
 
-    <!-- yield container -->
-    <div class="container">
-        @yield('content')
-    </div>   
+        <!-- yield container -->
+        <div class="container">
+            @yield('content')
+        </div>   
     </section>
 
     <script>
@@ -174,6 +157,7 @@
         sidebarBtn.addEventListener("click", ()=>{
             sidebar.classList.toggle("close");
         });
+
     </script>
 
 </body>

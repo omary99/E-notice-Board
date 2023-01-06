@@ -41,7 +41,7 @@
         <div class="banner-text">
             <h2>Export Processing <span>Zones Authority</span></h2>
             <p>Welcome to the announcements electronic board websites.</p>
-            <button class="btn"><a class="link_underline"  href="{{url('/home_dashboard')}}">Read More</a></button>
+            <button class="btn"><a class="link_underline"  href="{{url('/home_dashboard')}}">Read More... </a></button>
         </div>
     </header>
     <div class="container">

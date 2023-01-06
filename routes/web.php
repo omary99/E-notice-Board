@@ -9,6 +9,7 @@ use App\Http\Controllers\IctController;
 use App\Http\Controllers\OtherAnnouncementsController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\UserController;
+use App\Http\controllers\AdminController;
 
 
 /*
@@ -30,6 +31,9 @@ Route::get('/', function () {
 Route::get('/home_dashboard', function () {
     return view('home_dashboard');
 });
+
+// admin
+Route::resource('admin', App\Http\Controllers\AdminController::class);
 
 // Signup form
 Route::get('/signup', function () {

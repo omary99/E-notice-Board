@@ -1,16 +1,12 @@
-       /* Google FOnts Links */
-       @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+      /* Google FOnts Links */
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
-       * {
-           margin: 0;
-           padding: 0;
-           box-sizing: border-box;
-           font-family: "Poppins", "sans-sarif";
-       }
-       /* body{
-        overflow-x: hidden;
-        height: 100%;
-       } */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", "sans-sarif";
+      }
 
        .sidebar {
            position: fixed;
@@ -76,6 +72,7 @@
            position: relative;
            list-style: none;
            transition: all 0.4s ease;
+           padding-top: 10px;
        }
 
        .sidebar .nav-links li:hover{
@@ -268,7 +265,7 @@
        }
 
        .home-section .container{
-        height: 100vh;
+        height: 100%;
        }
 
        .sidebar.close ~ .home-section{
@@ -402,3 +399,5 @@
    padding-top: 50px;
 }
 /* End of home section CSS */
+
+
