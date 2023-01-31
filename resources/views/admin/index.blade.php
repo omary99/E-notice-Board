@@ -12,18 +12,36 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
  <!-- category Details dropping down -->
     
-            <ul class="sub-menu">             
-                    <li><i class='bx bx-briefcase'></i>&nbsp; &nbsp;<a class="link" href="{{url('/TravelPage')}}">Travel</a></li>
+            <ul class="nav flex-column">             
+                    <li class="nav-item">
+                        <i class='bx bx-briefcase'></i>&nbsp; &nbsp;
+                        <a class="link" href="{{url('/TravelPage')}}">Travel</a>
+                    </li>
                     <br>
-                    <li><i class='bx bx-news'></i>&nbsp; &nbsp;<a class="link" href="{{url('/MeetingPage')}}">Meeting</a></li>
+                    <li class="nav-item">
+                        <i class='bx bx-news'></i>&nbsp; &nbsp;
+                        <a class="link" href="{{url('/MeetingPage')}}">Meeting</a>
+                    </li>
                     <br>
-                    <li><i class='bx bx-fork' ></i>&nbsp; &nbsp;<a class="link" href="{{url('/HolidayPage')}}">Holiday</a></li>
+                    <li class="nav-item">
+                        <i class='bx bx-fork' ></i>&nbsp; &nbsp;
+                        <a class="link" href="{{url('/HolidayPage')}}">Holiday</a>
+                    </li>
                     <br>
-                    <li><i class='bx bx-book-open'></i>&nbsp; &nbsp;<a class="link" href="{{url('/TrainingPage')}}">Training</a></li>
+                    <li class="nav-item">
+                        <i class='bx bx-book-open'></i>&nbsp; &nbsp;
+                        <a class="link" href="{{url('/TrainingPage')}}">Training</a>
+                    </li>
                     <br>
-                    <li><i class='bx bx-envelope' ></i>&nbsp; &nbsp;<a class="link" href="{{url('/IctPage')}}">Ict</a></li>
+                    <li class="nav-item">
+                        <i class='bx bx-envelope' ></i>&nbsp; &nbsp;
+                        <a class="link" href="{{url('/IctPage')}}">Ict</a>
+                    </li>
                     <br>
-                    <li><i class='bx bx-collection'></i>&nbsp; &nbsp;<a class="link" href="{{url('/OtherAnnouncementsPage')}}">OtherAnnouncements</a></li>
+                    <li class="nav-item">
+                        <i class='bx bx-collection'></i>&nbsp; &nbsp;
+                        <a class="link" href="{{url('/OtherAnnouncementsPage')}}">Other Announcements</a>
+                    </li>
             </ul>
 
         </div>

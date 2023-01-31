@@ -105,7 +105,7 @@
             <li>
                 <a href="#">
                     <i class='bx bx-cog'></i>
-                    <span class="link-name">Setting</span>
+                    <span class="link-name">Settings</span>
                 </a>
                 <ul class="sub-menu blank">
                     <li><a class="link-name" href="#">Setting</a></li>

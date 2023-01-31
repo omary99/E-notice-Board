@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>EPZA | Homepage</title>
-
+ 
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Unicons CSS -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!-- Javascript -->
@@ -24,10 +25,15 @@
                     <i class="uil uil-times navCloseBtn"></i>
                     <li class="link"><a href="#">Home</a></li>
                     <li><a href="#">New</a></li>
-                    <li><a href="#">Notification</a></li>
+                    <li>
+                        <a href="{{url('/notification')}}">Notification</a>
+                        <span class="position-absolute translate-middle badge rounded-pill bg-danger">
+                            99+
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </li>
                     <li><a href="{{url('/login')}}">Login</a></li>
-                    <li><a href="{{url('/register')}}">Register</a></li>
-                   
+                    <li><a href="{{url('/register')}}">Register</a></li>                  
                 </ul>
 
                 <i class="uil uil-search search-icon" id="searchIcon"></i>

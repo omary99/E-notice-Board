@@ -44,6 +44,9 @@ Route::get('/signup', function () {
 Route::get('/loginform', function () {
     return view('loginform');
 });
+Route::get('/notification', function () {
+    return view('notification');
+});
 
 // Users
 Route::post('/UserData', [UserController::class, 'store']);
